@@ -6,11 +6,11 @@
 
 (defproject twidoop "0.8.0"
   :description "Read from the firehose, write to Hadoop"
-  :dependencies [[org.clojure/clojure "1.1.0-master-SNAPSHOT"]
-                 [org.clojure/clojure-contrib "1.0-SNAPSHOT"]
-                 [clojure-http-client "1.0.0-SNAPSHOT"]
-                 [org.apache.mahout.hadoop/hadoop-core "0.20.1"]
+  :dependencies [[org.clojure/clojure "1.2.0"]
+                 [org.clojure/clojure-contrib "1.2.0"]
+                 [clojure-http-client "1.0.0"]
+                 [org.clojars.paul.cdh/hadoop-core "3.0-beta-4"]
                  [commons-logging "1.1.1"]
                  [commons-cli "1.2"]]
-  :dev-dependencies [[org.clojure/swank-clojure "1.0"]]
+  :dev-dependencies [[swank-clojure "1.3.0-SNAPSHOT"]]
   :main twidoop)

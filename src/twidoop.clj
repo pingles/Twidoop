@@ -5,7 +5,7 @@
 ;;
 
 (ns twidoop
-  (:require [clojure.http.client :as http])
+  (:require [clojure-http.client :as http])
   (:use [clojure.contrib.command-line :only (with-command-line)])
   (:import (org.apache.hadoop.fs FileSystem LocalFileSystem Path)
            (org.apache.hadoop.conf Configuration)

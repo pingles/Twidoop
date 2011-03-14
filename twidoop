@@ -1,4 +1,4 @@
 #! /bin/sh
 
 LIBS=`find lib -type f -name \*.jar -print0 | tr '\0' :`
-exec java -cp ${LIBS}twidoop.jar twidoop $*
+exec java -cp ${LIBS}twidoop-0.8.0.jar twidoop $*
